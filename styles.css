@@ -1,0 +1,50 @@
+body {
+    background-color: aqua;
+}
+
+p {
+    color: blueviolet;
+}
+
+strong {
+    color: brown;
+}
+
+strong:hover {
+    background-color: green;
+}
+
+.names {
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+img {
+    width: 20%;
+}
+
+.pies-container {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 340px) {
+    .pies {
+        display: flex;
+    }
+    
+    .pies-container {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .pies {
+        display: flex;
+    }
+    
+    .pies-container {
+        flex-direction: column;
+    }
+}
